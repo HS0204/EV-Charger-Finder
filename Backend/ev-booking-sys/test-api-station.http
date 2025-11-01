@@ -1,0 +1,11 @@
+#INSERT INTO stations (id, name, latitude, longitude, available) VALUES
+# (1, 'HanRiver-01', 37.527, 127.036, TRUE),
+# (2, 'CityHall-B2', 37.566, 126.978, FALSE),
+# (3, 'Yeouido-North', 37.525, 126.925, TRUE),
+# (4, 'IncheonPort', 37.447, 126.617, TRUE);
+
+### 1. 내 위치 주변 충전소 조회
+GET http://localhost:8080/api/stations/near?lat=37.5665&lon=126.9780&radius=10
+
+### 2. id로 충전소
+GET http://localhost:8080/api/stations/2
