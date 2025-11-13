@@ -70,7 +70,7 @@ ev-charger-finder/
 
 | Layer | Stack |
 |-------|-------|
-| **Android** | Kotlin · Jetpack Compose · MVVM · Hilt · Coroutines · Retrofit · Room · Firebase |
+| **Android** | Kotlin · Jetpack Compose · MVI · Hilt · Coroutines · Retrofit · Room · Firebase |
 | **Architecture** | Multi-module · Navigation DSL · Clean Architecture |
 | **Backend** | Java 21 · Spring Boot 3 · SQLite/H2 · REST API |
 | **Tooling** | GitHub Actions · Gradle KTS · Firebase Crashlytics |
